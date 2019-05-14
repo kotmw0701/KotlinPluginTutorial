@@ -1,0 +1,5 @@
+name: KotlinPluginTutorial
+version: @version@
+main: kotmw.plugin.kotlinplugintutorial.KotlinPluginTutorial
+api-version: '1.13'
+author: kotmw0701
