@@ -3,3 +3,10 @@ version: @version@
 main: kotmw.plugin.kotlinplugintutorial.KotlinPluginTutorial
 api-version: '1.13'
 author: kotmw0701
+commands:
+  kotlin:
+    description: kotlin command.
+    usage: kotlin
+  kotmw:
+    description: kotmw command.
+    usage: kotmw muni

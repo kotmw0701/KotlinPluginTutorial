@@ -12,7 +12,7 @@ open class KotlinPluginCommand : CommandExecutor {
                 true
             }
             "kotmw" -> {
-                if (!args.isEmpty()) {
+                if (args.isNotEmpty()) {
                     when (args[0].toLowerCase()) {
                         "muni" -> {
                             sender.sendMessage("むにむに")
@@ -22,7 +22,7 @@ open class KotlinPluginCommand : CommandExecutor {
                     }
                 } else {
                     sender.sendMessage("ことむー")
-                    false
+                    true
                 }
             }
             else -> false
